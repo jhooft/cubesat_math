@@ -1,5 +1,5 @@
-%Determine if a given matrix is actually a rotation matrix.
-%We check that determinant is +1 and matrix is orthogonal
+%Determine if a given matrix represents a rotation sequence.
+%We check that determinant is +1 and matrix is orthogonal.
 %Assume we are given a square matrix A (inputs will most likely be 3x3)
 %Returns 1 if rotation matrix, 0 if not
 

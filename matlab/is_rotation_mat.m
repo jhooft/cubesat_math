@@ -21,7 +21,7 @@ function rotation = is_rotation_mat(A)
     for i=1:3   
       for j=2:3
         if (i~=j)&&(rotation==1)
-          if (dot(A(i,:),A(j,:))~=0)&&(dot(A(:,i),A(:,j))~=0)%criterium all rows and columns orthogonal broken
+          if (dot(A(i,:),A(j,:))~=0)||(dot(A(:,i),A(:,j))~=0)%criterium all rows and columns orthogonal broken
             rotation = 0;
           end
         end 

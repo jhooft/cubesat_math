@@ -76,9 +76,8 @@ function display_final_state
     %zdf=final_vec(6);
     r=sqrt(xf^2 + yf^2 + zf^2);
     altitude = r-Re;
-    fprintf('Final altitude above surface is: %d m', altitude);
-    
-end
+    fprintf('Final altitude above surface is: %d m', altitude);    
+end %function display_final_state
 
 function display_data(t,increment)
     %disp('   t_step        x       y       z       xd        yd       zd');
